@@ -54,6 +54,7 @@ a, a:hover {
   margin-left: 38%;
   width: 48%;
   margin-top: -27%;
+  margin-bottom: 5%;
 }
 
 .me-text {
@@ -61,7 +62,7 @@ a, a:hover {
   flex-direction: row;
 }
 
-img {
+.me {
   width: 296px;
   height: 375px;
   border: 1px solid black;
@@ -83,4 +84,21 @@ img {
   border-radius: 30px;
   position: relative;
   margin-top: 1%;
+}
+
+.skills img {
+  height: 75px;
+  width: auto;
+  margin-right: 2%;
+}
+
+.skills-row {
+  margin-left: 16%;
+  margin-bottom: 5%;
+}
+
+.portfolio h3 {
+  font-family: QuickSand;
+  font-size: 25px;
+  text-align: center
 }
