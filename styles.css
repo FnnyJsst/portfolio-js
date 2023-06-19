@@ -103,6 +103,11 @@ a, a:hover {
   text-align: center
 }
 
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .button-github {
   display: flex; 
   align-items: center; 
@@ -131,12 +136,64 @@ a, a:hover {
 }
 
 .button-github-shadow {
-  width: 120px;
+  width: 141px;
   height: 50px;
   background-color: black;
   position: relative;
   z-index: 1;
   border-radius: 15px;
+  margin-left: 58.7%;
+  margin-top: 7.5%;
+}
+
+.portfolio h4 {
+  font-family: QuickSand;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.portfolio p {
+  font-family: QuickSand;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.button-link {
+  display: flex; 
+  align-items: center; 
+  width: 130px;
+  height: 32px;
+  font-size: 16px;
+  font-family: QuickSand;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
   margin-left: 58%;
-  margin-top: 4.8%;
+  margin-top: 5%;
+  position: absolute;
+  z-index: 2;
+}
+
+.eye {
+  height: 34px;
+  width: 34px; /* Définissez la taille souhaitée pour l'image */
+  padding: 2px;
+}
+
+.eye img {
+  margin-right: 5px; 
+  height: 34px;
+}
+
+.button-link-shadow {
+  width: 130px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  margin-left: 58.7%;
+  margin-top: 7.5%;
 }
