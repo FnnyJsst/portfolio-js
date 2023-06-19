@@ -102,3 +102,41 @@ a, a:hover {
   font-size: 25px;
   text-align: center
 }
+
+.button-github {
+  display: flex; 
+  align-items: center; 
+  width: 120px;
+  height: 32px;
+  font-size: 16px;
+  font-family: QuickSand;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 58%;
+  margin-top: 5%;
+  position: absolute;
+  z-index: 2;
+}
+
+.github-mini {
+  height: 26px;
+  width: auto;
+  padding: 2px;
+ 
+}
+
+.github-mini img {
+  margin-right: 5px; /* Espace entre l'image et le texte */
+}
+
+.button-github-shadow {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  margin-left: 58%;
+  margin-top: 4.8%;
+}
