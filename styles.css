@@ -150,13 +150,16 @@ a, a:hover {
   font-size: 20px;
   text-align: center;
   margin-top: 5%;
+  margin-left: -14%;
 }
 
 .portfolio p {
   font-family: QuickSand;
   font-size: 16px;
-  text-align: center;
-  margin-top: 5%;
+  text-align: left;
+  margin-top: 2%;
+  width: 291px;
+  margin-left: 40%;
 }
 
 .button-link {
@@ -187,13 +190,24 @@ a, a:hover {
 }
 
 .button-link-shadow {
-  width: 130px;
-  height: 32px;
+  width: 151px;
+  height: 29px;
   background-color: black;
   position: relative;
   z-index: 1;
   border-radius: 15px;
-  left: 38%;
-  top: 7%;
+  left: -22.45%;
+  margin-top: 7%;
 } 
+
+.html-2, .css-2, .javascript-2, .rails-2 {
+  height: 30px;
+  width: auto;
+  margin-right: 2%;
+}
+
+.stack-img {
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
 
