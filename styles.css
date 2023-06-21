@@ -211,3 +211,15 @@ a, a:hover {
   margin-bottom: 5%;
 }
 
+.travelpals-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.travelpals {
+  width: 174px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
