@@ -51,9 +51,9 @@ a, a:hover {
 .bio p {
   font-family: QuickSand;
   font-size: 20px;
-  margin-left: 38%;
-  width: 48%;
-  margin-top: -27%;
+  margin-left: 12%;
+  width: 62%;
+  margin-top: 0%;
   margin-bottom: 5%;
 }
 
@@ -67,22 +67,18 @@ a, a:hover {
   height: 375px;
   border: 1px solid black;
   border-radius: 30px;
-  position: absolute;
   margin-left: 10%;
   object-fit: cover;
   z-index: 2;
 }
 
 .img-shadow {
-  width: 296px;
-  height: 375px;
+  width: 93%;
+  height: 371px;
   background-color: black;
-  border-radius: 30px;
-  position: relative;
   z-index: 1;
-  margin-left: 10.2%;
+  margin-left: -21%;
   border-radius: 30px;
-  position: relative;
   margin-top: 1%;
 }
 
@@ -217,9 +213,13 @@ a, a:hover {
 }
 
 .travelpals {
-  width: 174px;
+  width: 216px;
   object-fit: cover;
   border: 1px solid black;
   border-radius: 15px;
+  position: absolute;
+  top: 466%;
+  left: 18%;
+  height: 372px;
 }
 
