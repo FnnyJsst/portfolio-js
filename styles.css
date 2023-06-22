@@ -183,11 +183,12 @@ nav {
   display: flex !important;
   flex-direction: column;
   align-items: flex-end;
-  position: static !important;
+  position: sticky !important;
+  bottom: 20px;
+  background-color: transparent;
 }
 
 nav img {
-  height: 50px;
+  height: 60px;
   width: auto;
-
 }
