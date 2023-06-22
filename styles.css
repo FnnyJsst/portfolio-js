@@ -103,9 +103,9 @@ a, a:hover {
   display: flex;
 }
 
-.button-github {
-  display: flex; 
-  align-items: center; 
+.button-github, .button-link {
+  display: flex;
+  align-items: center;
   width: 126px;
   height: 32px;
   font-size: 16px;
@@ -113,10 +113,7 @@ a, a:hover {
   padding: 10px;
   border-radius: 15px;
   border: 1px solid black;
-  margin-left: 50%;
-  margin-top: 5%;
-  position: absolute;
-  z-index: 2;
+  border-bottom: 3px solid black;
 }
 
 .github-mini {
@@ -128,17 +125,6 @@ a, a:hover {
 
 .github-mini img {
   margin-right: 5px; 
-}
-
-.button-github-shadow {
-  width: 145px;
-  height: 50px;
-  background-color: black;
-  position: relative;
-  z-index: 1;
-  border-radius: 15px;
-  margin-left: 50.7%;
-  margin-top: 5.5%;
 }
 
 .portfolio h4 {
@@ -158,22 +144,6 @@ a, a:hover {
   margin-left: 40%;
 }
 
-.button-link {
-  display: flex; 
-  align-items: center; 
-  width: 130px;
-  height: 32px;
-  font-size: 16px;
-  font-family: QuickSand;
-  padding: 10px;
-  border-radius: 15px;
-  border: 1px solid black;
-  margin-left: 38%;
-  margin-top: 5%;
-  position: absolute;
-  z-index: 2;
-}
-
 .eye {
   height: 34px;
   width: 34px; 
@@ -184,17 +154,6 @@ a, a:hover {
   margin-right: 5px; 
   height: 34px;
 }
-
-.button-link-shadow {
-  width: 151px;
-  height: 29px;
-  background-color: black;
-  position: relative;
-  z-index: 1;
-  border-radius: 15px;
-  left: -22.45%;
-  margin-top: 7%;
-} 
 
 .html-2, .css-2, .javascript-2, .rails-2 {
   height: 30px;
@@ -221,5 +180,9 @@ a, a:hover {
   top: 466%;
   left: 18%;
   height: 372px;
+}
+
+.travelpals-description {
+  margin-left: 34%;
 }
 
