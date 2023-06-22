@@ -69,17 +69,7 @@ a, a:hover {
   border-radius: 30px;
   margin-left: 10%;
   object-fit: cover;
-  z-index: 2;
-}
-
-.img-shadow {
-  width: 93%;
-  height: 371px;
-  background-color: black;
-  z-index: 1;
-  margin-left: -21%;
-  border-radius: 30px;
-  margin-top: 1%;
+  border-bottom: 3px solid black;
 }
 
 .skills img {
@@ -96,17 +86,20 @@ a, a:hover {
 .portfolio h3 {
   font-family: QuickSand;
   font-size: 25px;
-  text-align: center
+  text-align: center;
+  margin-left: 30%;
 }
 
 .button-container {
   display: flex;
+  margin-left: 13%;
+  width: 98%;
 }
 
 .button-github, .button-link {
   display: flex;
   align-items: center;
-  width: 126px;
+  width: 151px;
   height: 32px;
   font-size: 16px;
   font-family: QuickSand;
@@ -114,13 +107,13 @@ a, a:hover {
   border-radius: 15px;
   border: 1px solid black;
   border-bottom: 3px solid black;
+  margin-left: 5%;
 }
 
 .github-mini {
   height: 26px;
   width: auto;
   padding: 2px;
- 
 }
 
 .github-mini img {
@@ -131,8 +124,8 @@ a, a:hover {
   font-family: QuickSand;
   font-size: 20px;
   text-align: center;
-  margin-top: 5%;
-  margin-left: -14%;
+  margin-top: 10%;
+  margin-left: -32%;
 }
 
 .portfolio p {
@@ -141,7 +134,7 @@ a, a:hover {
   text-align: left;
   margin-top: 2%;
   width: 291px;
-  margin-left: 40%;
+  margin-left: 21%;
 }
 
 .eye {
@@ -162,7 +155,7 @@ a, a:hover {
 }
 
 .stack-img {
-  margin-left: 40%;
+  margin-left: 21%;
   margin-bottom: 5%;
 }
 
@@ -177,9 +170,9 @@ a, a:hover {
   border: 1px solid black;
   border-radius: 15px;
   position: absolute;
-  top: 466%;
   left: 18%;
   height: 372px;
+  border-bottom: 3px solid black;
 }
 
 .travelpals-description {
