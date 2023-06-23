@@ -1,10 +1,5 @@
+let h1 = document.querySelector('h1');
 
-document.addEventListener('DOMContentLoaded', function() {
-    let images = document.querySelectorAll('.skills img');
-  
-    images.forEach(function(image) {
-      image.addEventListener('onclick', function(event) {
-        event.target.style.width = '75px';
-      });
+h1.addEventListener('click', function() {
+    alert('You clicked the h1!');
     });
-  });
