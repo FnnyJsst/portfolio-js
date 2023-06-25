@@ -94,13 +94,19 @@ a, a:hover {
   text-align: center;
   font-size: 45px;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
  h2 {
   font-family: Pacifico;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 3%;
 }
+
+  h4 {
+    margin-bottom: 5%;      
+  }
 
 .bio p {
   font-family: QuickSand;
@@ -142,6 +148,7 @@ a, a:hover {
   font-size: 25px;
   text-align: center;
   margin-left: 30%;
+  margin-bottom: 12%;
 }
 
 .button-container {
@@ -153,7 +160,7 @@ a, a:hover {
 .button-github, .button-link {
   display: flex;
   align-items: center;
-  width: 151px;
+  width: 168px;
   height: 32px;
   font-size: 16px;
   font-family: QuickSand;
