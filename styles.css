@@ -1,5 +1,15 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
   background-color: #FFEEEF;
+}
+
+html, body {
+  height: 100%;
 }
 
 .container {
@@ -11,6 +21,7 @@
   height: 40px;
   margin: auto;
   text-align: center;
+  width: 33%;
   margin-left: -90%;
 }
 
@@ -228,7 +239,8 @@ nav {
   align-items: flex-end;
   position: sticky !important;
   bottom: 20px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  z-index: -1;
 }
 
 nav img {
